@@ -1,4 +1,5 @@
 <?php
+namespace Stoykov\CryptoWallet;
 /*
 	Original source from: Shane B. (Xenland)
 	Modified by: Antoan Stoykov
