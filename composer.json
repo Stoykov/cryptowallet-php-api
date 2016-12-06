@@ -1,5 +1,5 @@
 {
-    "name": "Stoykov/cryptowallet-php-api",
+    "name": "stoykov/cryptowallet",
     "autoload": {
         "psr-0" : {
             "Stoykov\\CryptoWallet" : "src"
