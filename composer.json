@@ -1,0 +1,8 @@
+{
+    "name": "Stoykov/cryptowallet-php-api",
+    "autoload": {
+        "psr-0" : {
+            "Stoykov\\CryptoWallet" : "src"
+        }
+    }
+}
