@@ -300,7 +300,7 @@ class Crypto_API
 
 				$tmp_store_checksum 						= $unverified_receipt_information["checksum"];
 				$unverified_receipt_information["checksum"] = '';
-				$receipt_data_checksum 						= hash($bdk_settings["hash_type"], json_encode($unverified_receipt_information));
+				$receipt_data_checksum 						= hash($this->sttings["hash_type"], json_encode($unverified_receipt_information));
 
 				if($tmp_store_checksum == $receipt_data_checksum)
 				{
